@@ -1,5 +1,5 @@
 'use strict';
-
+require('dotenv').config();
 const ReplyHandler = require('../controllers/replyHandler.js');
 const ThreadHandler = require('../controllers/threadHandler.js');
 const mongoose = require('mongoose');
